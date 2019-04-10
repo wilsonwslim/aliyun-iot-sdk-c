@@ -27,7 +27,7 @@ release_aliyun-iot-sdk-c:
     only:
         - tags
     variables:
-        REPOSITORY: "git@github.com:kbwilson89/aliyun-iot-sdk-c.git"
+        REPOSITORY: "git@github.com:wilsonwslim/aliyun-iot-sdk-c.git"
         BRANCH: "master"
     script:
         - ./setup.sh
